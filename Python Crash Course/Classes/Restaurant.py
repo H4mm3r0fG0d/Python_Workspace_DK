@@ -43,7 +43,7 @@ class User:
         self.user_email = user_email
     
     def describe_user(self):
-        print(f"User name:{self.last_name.title()}, {self.first_name.title()}")
+        print(f"User name: {self.last_name.title()}, {self.first_name.title()}")
         print(f"User DOB: {self.user_dob}")
         print(f"User address: {self.user_address}")
         print(f"User e-mail address: {self.user_email}")
@@ -55,4 +55,9 @@ class User:
 diego = User("diego", "kendall", "12/17/1992", "12345 Somewhere Dr, Anytown, USA 20349", "diegokendall@acme.com")
 #diego.describe_user()
 #diego.greet_user()
-kevin = User("kevin", "", "",)
+kevin = User("kevin", "federline", "06/09/1420", "69420 White Trash Lane, Dirtville, USA 69420", "kfed@douchenozzle.org")
+#kevin.describe_user()
+#kevin.greet_user()
+skylar = User("skylar", "fitzgerald", "05/07/1999", "207143 Truelove Avenue, Hometown, USA 22030", "sfitzgerald@hotgirl.com")
+#skylar.describe_user()
+#skylar.greet_user()
